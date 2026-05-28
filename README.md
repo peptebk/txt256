@@ -1,15 +1,15 @@
-# txt256 — шифрованные заметки
+#txt256 — Encrypted notes
 
-**txt256** — это приложение для создания и хранения заметок с защитой на уровне AES-256. Все записи сохраняются в локальной базе данных в зашифрованном виде. Расшифровка возможна только по паролю, который хранится зашифрованным с базой данных
+** TXT256** is an application for creating and storing notes with AES-256 protection. All notes are stored in a local database in encrypted form. Decryption is possible only with the help of a password, which is stored in encrypted form in the database.
 
-## Основные возможности
+## Main features
 
-- Создание и редактирование заметок
-- Шифрование содержимого алгоритмом AES-256
-- Экспорт/импорт зашифрованного файла
+- Create and edit notes
+- Content encryption using AES-256
+- Export/import of an encrypted file
 
-## Принцип работы
+## How it works
 
-1. Пользователь вводит пароль при запуске
-2. На его основе генерируется ключ (PBKDF2)
-3. файл заметок шифруется/дешифруется на устройстве
+1. The user enters the password at startup.
+2. A key (PBKDF2) is generated based on this password.
+3. The note file is encrypted/decrypted on the device.
